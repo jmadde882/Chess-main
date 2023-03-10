@@ -291,7 +291,7 @@ final class ChessMove {
 
     public static void main(final String[] args) {
         final ChessMove chess = new ChessMove();
-        chess.readInput("WHITE: Rf1, Kg1, Pf2, Ph2, Pg3\nBLACK: Kb8, Ne8, Pa7, Pb7, Pc7, Ra5\nPIECE TO MOVE: Rf1");
+        chess.readInput("WHITE: Rf1, Kg1, Pf2, Ph2, Pg3\nBLACK: Kb8, Ne8, Pa7, Pb7, Pc7, Ra5\nPIECE TO MOVE: Pf2");
         out.println(chess.movePiece());
     }
 
